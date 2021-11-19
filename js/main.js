@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var DOMAIN = "http://localhost/inv_project/public_html";
+	var DOMAIN = "http://localhost/Inventory/inventory-management-system/";
 	$("#register_form").on("submit",function(){
 		var status = false;
 		var name = $("#username");
@@ -7,7 +7,7 @@ $(document).ready(function(){
 		var pass1 = $("#password1");
 		var pass2 = $("#password2");
 		var type = $("#usertype");
-		//rizwan@gmail.com
+		
 		var e_patt = new RegExp(/^[a-z0-9_-]+(\.[a-z0-9_-]+)*@[a-z0-9_-]+(\.[a-z0-9_-]+)*(\.[a-z]{2,4})$/);
 		if(name.val() == "" || name.val().length < 6){
 			name.addClass("border-danger");

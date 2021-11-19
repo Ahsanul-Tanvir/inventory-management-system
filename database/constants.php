@@ -6,6 +6,6 @@ define("USER","root");
 define("PASS","");
 define("DB","project_inv");
 
-define("DOMAIN","http://localhost/inv_project/public_html");
+define("DOMAIN", "http://localhost/Inventory/inventory-management-system/");
 
 ?>
